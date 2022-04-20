@@ -1,0 +1,81 @@
+1. create a github account
+
+Hi this tutorial walks through the process of hosting a website using github.
+
+
+Go to https://github.com/ in your web browser to sign up for a new account (you can skip this step if you already have a github account)
+
+Enter your details in the sign up form.
+
+Once you press Sign up for GitHub button, you will be prompted to verify that you are not a robot.
+
+Once you have verified your identity, you can choose the GitHub plan you want to subscribe for.
+
+For this tutorial , we will be using the free plan.
+
+check your email inbox and click the link to verify your email address.
+
+you can either answer OR SKIP the survey questions.
+
+2. new repo
+
+once you have are signed up, click on create repository.
+the repository is where we will store our code
+
+give the name of the repo as follows. username.github.io
+
+you can make this repo either public or private.
+
+if you chose public, anyone on the internet can see your repository and on private you chose who can see the repository.
+
+you can always come back and change this setting.
+
+
+
+
+tick the Add a readmefile button if you wish to write a description of the project
+
+once done, click create repository.
+
+
+3. clone
+
+Once the repository is created , we will clone the repository to our machine , so that we can work on the file contents.
+cloning the repo will basically copy the contents from the github repository to your machine
+
+if you are using windows, open command prompt. if you are using mac or linux . you can use terminal.
+
+the command to clone a github repository is git clone followed by the repository url.
+
+you can find the repository url from the github repositry.
+
+4. index
+
+once your reposity is cloned , you can create files inside it.
+
+use your favourite text editor to create files inside it.
+you can use the sample index.html shown in the video to create the file.
+
+5. add commt push
+
+after creating the file. you should add , commit and push your changes.
+
+use the commands mentioned in the video to add commit and push your changes
+
+git add -all will add all changes 
+git commit -m "initial message" will commit changes along with the messages
+git push - u origin main will push your changes to the github repo 
+
+
+you can go to the repository to see the commit with the message inital commit
+
+5. setup github pages
+
+go to settings in your repository to enable github pages.
+make sure your your github pages in enabled by clicking the enable button
+
+once enabled you will be able to get the url for your website
+
+6. view
+
+copy the url from github pages and past it in your browser to see the website your created.

@@ -1,0 +1,4 @@
+function remove_footer_admin () { 
+echo 'Siobhan is Awesome. Thank you <a href="http://wordpress.org">WordPress</a> for giving me this filter.'; 
+} 
+add_filter('admin_footer_text', 'remove_footer_admin'); 
